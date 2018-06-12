@@ -1,0 +1,33 @@
+article{
+    height: 390px;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 35px;
+    
+    
+    
+}
+
+.article-content{
+   
+   height: 350px;
+   margin-left: 75px;
+   margin-right: 75px;
+  
+   
+   
+  
+  
+  background-color: snow;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+
+}
+
+.text-article{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 15px;
+}
