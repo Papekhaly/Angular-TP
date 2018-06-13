@@ -7,16 +7,25 @@ import { FooterComponent } from './footer/footer.component';
 import { SectionComponent } from './section/section.component';
 import { ArticleComponent } from './article/article.component';
 
+
+    
+import { AsideComponent } from './aside/aside.component';
+import { LoginComponent } from './login/login.component'
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
     SectionComponent,
-    ArticleComponent
+    ArticleComponent,
+    AsideComponent,
+    LoginComponent
+   
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
