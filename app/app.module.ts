@@ -4,25 +4,19 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { SectionsComponent } from './sections/sections.component';
-import { RegisterComponent } from './register/register.component';
-import { AppRoutingModule } from './/app-routing.module';
-import { LoginComponent } from './login/login.component';
-import { ProfilComponent } from './profil/profil.component';
+import { SectionComponent } from './section/section.component';
+import { ArticleComponent } from './article/article.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    SectionsComponent,
-    RegisterComponent,
-    LoginComponent,
-    ProfilComponent
+    SectionComponent,
+    ArticleComponent
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule
+    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]
